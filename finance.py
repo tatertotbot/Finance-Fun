@@ -62,8 +62,8 @@ m.pack(ipady = 15, side = TOP, anchor = 'w')
 sh = Label(root, text = "Shares: " + str(shares), font = ('Helvetica', 20))
 sh.pack(ipady = 15, side = TOP, anchor = 'w')
 
-sh = Label(root, text = "Try to get to $1500", font = ('Helvetica', 20))
-sh.pack(ipady = 15, side = TOP, anchor = 'w')
+g = Label(root, text = "Try to get to $1500", font = ('Helvetica', 20))
+g.pack(ipady = 15, side = TOP, anchor = 'w')
 
 p = Label(root, text = "Current stock price: $" + str(price), font = ('Helvetica', 20))
 p.pack(ipady = 15, fill = Y, anchor = 'center')
